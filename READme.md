@@ -31,13 +31,14 @@ micro-orchestrator/
 
 ```toml
 [dependencies]
-actix-web = "4"
-tokio = { version = "1", features = ["full"] }
-rdkafka = { version = "0.30", features = ["tokio"] }
-serde = { version = "1", features = ["derive"] }
-serde_json = "1"
-deadpool-redis = "0.10"
-tracing = "0.1"
+actix-web = "4.11.0"
+deadpool-redis = "0.22.0"
+rdkafka = "0.38.0"
+serde = "1.0.219"
+serde_json = "1.0.143"
+tokio = "1.47.1"
+tracing = "0.1.41"
+tracing-subscriber = "0.3.20"
 ```
 
 ---
